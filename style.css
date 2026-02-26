@@ -1,0 +1,42 @@
+body{
+margin:0;
+background:#0a0f1c;
+color:#f5e6d3;
+font-family:Arial;
+}
+header{
+text-align:center;
+padding:20px;
+color:#d4af37;
+font-size:28px;
+}
+nav{
+display:flex;
+gap:10px;
+padding:10px;
+overflow:auto;
+}
+nav button{
+padding:10px;
+border-radius:20px;
+border:1px solid gold;
+background:rgba(255,255,255,0.05);
+color:gold;
+}
+.section{display:none;padding:20px}
+.section.active{display:block}
+.card{
+padding:20px;
+border-radius:20px;
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(212,175,55,0.3);
+margin-top:10px;
+}
+button{
+margin-top:10px;
+padding:10px;
+background:#d4af37;
+border:none;
+border-radius:10px;
+}
+textarea,input{width:100%;margin-top:5px}
